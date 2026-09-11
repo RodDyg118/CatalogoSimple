@@ -1,0 +1,63 @@
+/* 1. Mudar a cor da barra Header*/
+.custom-navbar {
+  background-color: #1A1A1A !important; /* Cor de fundo escura, estilo luxo/archive */
+  padding: 15px 20px;
+}
+
+/* 2. Mudar a cor, tamanho e fonte do logo */
+.custom-brand {
+  color: #f3f3e9 !important; /* Dourado */
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+}
+
+/* 3. Mudar a cor dos links do menu */
+.custom-nav-link {
+  color: #f3f3e9 !important;
+  margin-right: 10px;
+  font-family: 'Arial', serif !important;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+}
+
+/* Efeito ao passar o mouse nos links */
+.custom-nav-link:hover {
+  color: #b4b4b4 !important; 
+}
+
+/* 4. Mudar a cor do fundo do menu suspenso (Dropdown) */
+.custom-dropdown-menu {
+  background-color: #1A1A1A;
+  border: none;
+}
+
+/* 5. Mudar a cor dos itens dentro do dropdown */
+.custom-dropdown-item {
+  color: #f3f3e9 !important;
+  font-family: 'Arial', serif !important;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.custom-dropdown-item:hover {
+  background-color: #f3f3e9 !important;
+  color: #000000 !important;
+  
+}
+
+/* 6. Mudar a cor e posição do botão de busca */
+.custom-search-btn {
+  border-color: #f3f3e9;
+  color: #f3f3e9;
+}
+
+.custom-search-btn:hover {
+  background-color: #b4b4b4;
+  color: #000000;
+}

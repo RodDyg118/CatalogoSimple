@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid custom-container">
+    
+    <!-- Logo da Loja -->
+    <a class="navbar-brand custom-brand" routerLink="/">Rare Archive</a>
+    
+    <!-- Botão Responsivo (Mobile) -->
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Conteúdo do Menu -->
+    <div class="collapse navbar-collapse custom-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-nav-list">
+        
+        <!-- Item Home -->
+        <li class="nav-item custom-nav-item">
+          <a class="nav-link active custom-nav-link" aria-current="page" routerLink="/">Home</a>
+        </li>
+        
+        <!-- Menu Dropdown de Produtos -->
+        <li class="nav-item dropdown custom-nav-item">
+          <a class="nav-link dropdown-toggle custom-nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Produtos
+          </a>
+          <ul class="dropdown-menu custom-dropdown-menu">
+            <li><a class="dropdown-item custom-dropdown-item" routerLink="/produtos">Listar Produtos</a></li>
+            <li><a class="dropdown-item custom-dropdown-item" routerLink="/produtos/cadastrar">Cadastrar Produtos</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+      <!-- Área de Ação / Busca -->
+      <div class="d-flex custom-search-area" role="search">
+        <button class="btn custom-search-btn" type="submit">Search</button>
+      </div>
+      
+    </div>
+  </div>
+</nav>
